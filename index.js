@@ -1,9 +1,9 @@
 const { router } = require('./models/routes/auth');
 
 require('dotenv').config();
-const express =requise('express');
-const mongoose=requise('mongoose');
-const cors=requise('cors');
+const express =require('express');
+const mongoose=require('mongoose');
+const cors=require('cors');
 
 const app=express();
 app.use(express.json());
